@@ -4,7 +4,6 @@
 
             $arr[$i] = rand(10, 100);
         }
-
     print_r($arr);
 
         $countIteration = 0;
@@ -16,7 +15,6 @@
             for ($j=0 ; $j <count($arr)-$i-1 ; $j++){
 
                 $countIteration++;
-
                 $elem1 = $arr[$j];
                 $elem2 = $arr[$j+1];
 
@@ -31,5 +29,5 @@
         }
 
 print_r($arr);
-        print_r("\n number of iteration is: ". $countIteration);
+print_r("\n number of iteration is: ". $countIteration);
 
